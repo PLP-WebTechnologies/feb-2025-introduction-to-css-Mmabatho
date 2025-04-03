@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Styled Page</title>
+        <link rel="stylesheet" href="style.css"> 
+
+    </head>
+        <title> My Fist Web page</title>
+        <body>
+ 
+            <h2 class="heading">Have a Horsey Adventure!!</h2>
+            <ol class="adventure-list" type="i">
+                <li>Show Jumping</li>
+                <li>Horse Rider</li>
+                <li>Eventing</li>
+                <li>Dressage</li>
+                <li>Western Riding</li>
+            </ol>
+            
+            <h3 id="welcome-message">Welcome to Mmabatho's Horse Club</h3>
+            <img class="club-image" src="https://images.pexels.com/photos/30147888/pexels-photo-30147888/free-photo-of-cowboy-silhouette-riding-at-sunset-in-ardic.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+            alt="mmabatho's picture" width="250" height="300">
+<br>
+<h4>Horse riders Lesson Form  </h4>
+<table border = "5">    
+    <caption>Member lists </caption>
+    <thead>
+        <tr>
+            <Th>Name </Th>
+            <Th>Address  </Th>
+            <Th>Mobile </Th>
+            <Th>Emails </Th>
+        </tr>
+    </thead>
+    <tbody><tr>
+        <td>Mmabatho </td>
+        <td>225 Suut Streer </td>
+        <td>+27 865 2532 </td>
+        <td>mmabatho@stalls.com </td>
+    </tr>
+    <tr>
+        <td>Madida </td>
+        <td>225 Hati Street </td>
+        <td>+267 856 5246 </td>
+        <td>dida@gmail.com </td>
+        
+    </tr>
+    <tr>
+        <td>Keitumetse </td>
+        <td>2 Gero Street </td>
+        <td>+256 452 5245 </td>
+        <td>k2@gmail.com </td>
+        
+    </tr>
+    <tr>
+        <td>Joyce </td>
+        <td>563 Huie Street </td>
+        <td>+256 523 6390 </td>
+        <td>joyse@gmail.com </td>
+        
+    </tr>
+    <tr>
+        <td>Amanda </td>
+        <td>47 Phala Street </td>
+        <td>+27 526 7474 </td>
+        <td>Amanda@gmail.com </td>
+    </tr>
+</tbody>
+<br><br>
+</table>
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="6">
+        <br><br>        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+
+     
+    
+<br><br>
+<label for="cities">Cities :</label>
+<select id="city" name="city" required>
+    <option value="">--Select a City--</option>
+    <option value="Johannesburg">Johannesburg</option>
+    <option value="Durban">Durban</option>
+    <option value="Capetown ">Cape Town </option>
+    <option value="east_london">East London</option>
+</select><br><br>
+    
+<label for="gender">Gender:</label>
+<input type="radio" id="gender" name="genser" value="female"> Female
+<input type="radio" id="gender" name="genser" value="male"> Male
+<br><br> 
+<label>Level of Training:</label><br>
+<input type="checkbox" id="beginner" name="interests" value="beginner">
+<label for="beginner">Beginner</label>
+<input type="checkbox" id="intermediate" name="interests" value="intermediate">
+<label for="intermediate">Intermediate</label>
+<input type="checkbox" id="advance" name="interests" value="advance">
+<label for="advance">Advance</label>
+
+<br><br>
+
+<button type="submit">Register</button>
+<button type="reset">Cancel</button>
+      
+</form>
+        </body>
+
+    
+</html>
